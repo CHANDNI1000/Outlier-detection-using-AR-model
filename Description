@@ -1,0 +1,12 @@
+A common approach to outlier detection in time series is to use prediction models. These approaches define a way of building a prediction model, and then compute an “outlier
+score” for each point in the time series according to its deviation from the predicted value. 
+
+As part of this project we are creating synthetic time series which we would be using to estimate parameters of AR models.
+
+Once estimated, model will be fitted and predicted using inbuilt package  'statsmodels.tsa.ar_model'. 
+
+Noise was added to the data. Corrupted data was re-estimated using AR model and predicted.
+
+Score (MSE) was used to measure difference between actual and predicted data points
+
+This project highlights how well AR model detects outlier.
